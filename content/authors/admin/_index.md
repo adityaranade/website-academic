@@ -1,39 +1,41 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Aditya Ranade
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ph.D. student at Iowa State University 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Iowa State University
+    url: https://www.stat.iastate.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am currently a PhD student studying Statistics at Iowa State University. My advisor is Dr. Jarad Niemi
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Bayesian Statistics
+  - Sports Analytics
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
+    - course: PhD in Statistics
       institution: Stanford University
+      year: expected December 2024
+    - course: MS in Statistics
+      institution: San Diego State University
+      year: 2017
+    - course: M.Sc. in Statistics
+      institution: Sardar Patel University
+      year: 2014
+    - course: B.Sc. in Statistics
+      institution: Mumbai University
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
