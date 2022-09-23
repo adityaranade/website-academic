@@ -69,3 +69,5 @@ highlight_name: true
 I am a doctoral studying at Iowa State University, Department of Statistics since Fall 2019. My advisor is Dr. Jarad Niemi.
 
 My interests are application of Bayesian techniques. I am interested in Sports analytics (specifically Cricket) as well.
+
+#{{< icon name="download" pack="fas" >}} Download my {{< staticref #"static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
