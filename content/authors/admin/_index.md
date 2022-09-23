@@ -70,6 +70,6 @@ I am a doctoral studying at Iowa State University, Department of Statistics sinc
 
 My interests are application of Bayesian techniques. I am interested in Sports analytics (specifically Cricket) as well.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Aditya.Ranade.Resume.pdf" "newtab" >}}resume{{< /staticref >}}.
 
 
