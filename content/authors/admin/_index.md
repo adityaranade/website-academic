@@ -70,4 +70,4 @@ I am a doctoral studying at Iowa State University, Department of Statistics sinc
 
 My interests are application of Bayesian techniques. I am interested in Sports analytics (specifically Cricket) as well.
 
-#{{< icon name="download" pack="fas" >}} Download my {{< staticref #"static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+#{{< icon name="download" pack="fas" >}} Download my {{< staticref #"media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
