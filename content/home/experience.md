@@ -22,28 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+  - title: Actuarial Analyst
+    company: Birla Sun Life Insurance
+    company_url: 'https://lifeinsuranceservicing.adityabirlacapital.com/'
+    company_logo: 
+    location: Mumbai, Maharashtra, India
+    date_start: '2016-04-12'
+    date_end: '2017-04-13'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Analysis and valuation of reinsurance and group claims
+        * Report writing
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Research Assistant
+    company: The Nielsen Company
+    company_url: 'https://nielsen.com/about-us/locations/india/'
+    company_logo: 
+    location: Mumbai, Maharashtra, India
+    date_start: '2014-05-24'
+    date_end: '2015-01-16'
+    description: Designing survey questionnaire, analyzing preliminary results, survey monitoring work.
 
 design:
   columns: '2'
