@@ -3,7 +3,7 @@ title: Indian Premier League : Does the best team win the league ?
 subtitle: A simple analysis to check if the best team win the league. Analysis indicates a rather surprising result.
 
 # Summary for listings and search engines
-summary: A statistical analysis to check if the best team wins the Indian Premier league.
+summary: A statistical analysis to check if the best team wins the Indian Premier league. Analysis indicates a rather surprising result.
 
 # Link this post with a project
 projects: []
