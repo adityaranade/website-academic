@@ -1,9 +1,9 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: Indian Premier League  Does the best team win the league ?
+subtitle: A simple analysis to check if the best team wins the league. Analysis indicates a rather surprising result.
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: A statistical analysis to check if the best team wins the Indian Premier league. Analysis indicates a rather surprising result.
 
 # Link this post with a project
 projects: []
@@ -25,81 +25,71 @@ featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
   focal_point: ''
-  placement: 2
+  placement: 5
   preview_only: false
 
 authors:
   - admin
-  - 吳恩達
 
 tags:
   - Academic
-  - 开源
 
 categories:
   - Demo
-  - 教程
 ---
 
-## Overview
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
 
-[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://wowchemy.com)
+Indian Premier League is an annual cricket league which is played under the T20 format. It was started in the year 2008 and has quickly gained popularity among cricket playing nations and has probably become one of the biggest sporting event in the Indian sports calendar.
 
-## Get Started
+The tournament is played between various teams based out of different cities in India. IPL is currently in its 14th season where the tournament has been played with 8 teams from 2008 - 2010 and 2014-2021. It was played with 10 teams in 2011 and 9 teams in 2012 and 2013. From 2022, it has been expanded again to 10 teams.
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
+The tournament followed a double round-robin format (except for the year 2011) where each team plays the other team twice (once at each team's 'home' ground). From the year 2022, the teams are divided into two groups and every team plays 14 games. At the conclusion of the league stage, the top four teams qualify for the playoffs. For the first 3 years (2008-2010), the traditional semifinals and final approach was considered. From 2011, a playoff structure was introduced to award the top two teams with an additional chance to reach the finals. This ensured the competition stays relevant till the last game of the league stage as teams vie for a top 2 position. The figure below explains the playoff structure.
 
-## Crowd-funded open-source software
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+The top two teams of the league stage have two chances to reach the final. The thought behind this playoff structure was that the top two teams should not be out of the tournament due to one bad day in the semi-finals.
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/)
+A question that pops up in the mind is "Does the best team win the tournament". In other words, does the team which finishes the league stage at the top of the table have the best chance to win the league. The team which finishes the league stage position 1 has won the most number of points (and in case of tied points, has a superior net run rate) and hence is considered the "best" team in the league. We would be tempted to say yes. But let's find out what the data says. 
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
 
-## Ecosystem
 
-- **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+We have the data available for 11 years (2011 - 2021)  for the league stage standings and the playoff results for the team topping the league stage from IPL official website which can be seen below
 
-## Inspiration
 
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
+We can observe, the team which tops the league stage has won the tournament only three 3 of 11 times which corresponds to approximately 27.27%. However, this is just the observation from 11 years so cannot be considered as the best indicator of probability. We will consider a Bayesian statistical model to calculate the probability of the team finishing the tournament as winner, runners up and third place.
 
-## Features
 
-- **Page builder** - Create _anything_ with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/content/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/content/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
 
-## Themes
+In simple terms, a Bayesian model is reconciliation of our belief ( 'prior' distribution) with the observed data (likelihood) to give the updated belief ('posterior' distribution). Here the information (prior, likelihood and posterior) is in the form of mathematical distribution functions.
 
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
 
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
 
-## License
+Let us run the statistical model. The model we are going to use is as follows
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+If we consider the random variable 'result' which indicates the position of the team at the end of the tournament. The team which finishes the league stage at the top of the table can finish at any position from 1 to 3 at the end of the tournament where 1 stands for winner, 2 stands for runner's up and 3 stands for 3rd place. Since the variable can take only 1 out of the 3 values, it follows a categorical distribution which is denoted as result ~ categorical($p_{1}, p_{2}, p_{3}$) where $p_{1}$, $p_{2}$ and $p_{3}$ indicates the probability of finishing at each of the position at the end of the tournament. 
 
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md) license.
+We will consider the probabilities as a random variable as well. We have to assign a distribution to the variable in such a way that our beliefs are reflected in the distribution. We will consider the team has an equal chance at finishing at each of the positions. This ensured by assigning a Dirichlet(1,1,1) distribution to ($p_{1}$, $p_{2}$, $p_{3}$)
+
+So the model is as follows
+
+{{< math >}}
+
+$$result \overset{\mathrm{i.i.d.}}{\sim} Categorical(p_{1}, p_{2}, p_{3}) $$
+
+$$(p_{1}, p_{2}, p_{3}) \sim Dirichlet(\alpha_{1}, \alpha_{2}, \alpha_{3}) $$
+
+{{< /math >}}
+
+
+We run this model on 11 years of the data available and we get the credible interval for the posterior probabilities of finishing at each of the position
+
+The horizontal line indicates the plausible values for the probability and black point indicates the estimated value of the probability from the available data and model used.
+
+We can see the probability of being runner up is higher than the probability of finishing as winner or 3rd place which seem to have almost the same probability. This means the team finishing at the top of the table at the end of the league will more often go on to lose in the playoffs (finish as runner up or $3^{rd}$ place) at the end of the tournament. 
+
+So probably the best team in the league does not win the tournament.! 
+
+Isn't it surprising? It surely is. Let us look at some of the reasons this might be the case. More often than not, the team which finishes at the top of the table during the league stage accumulates most of the points during the early stages and tends to lose steam towards the business end of the tournament. It might be a case of peaking too early. There might be some other psychological impact that might be worthwhile to study.
+
+With this being said, the team which finishes the league stage at second position has the highest probability of winning the tournament. 
+
