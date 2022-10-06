@@ -1,6 +1,6 @@
 ---
-title: Indian Premier League  Does the best team win the league ?
-subtitle: A simple analysis to check if the best team wins the league. Analysis indicates a rather surprising result.
+title: Does the best team win the Indian Premier League ?
+subtitle: A simple analysis to check if the best team wins the league reveals a rather surprising result.
 
 # Summary for listings and search engines
 summary: A statistical analysis to check if the best team wins the Indian Premier league. Analysis indicates a rather surprising result.
@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bY4cqxp7vos)'
   focal_point: ''
   placement: 5
   preview_only: false
@@ -38,14 +38,13 @@ categories:
   - Demo
 ---
 
-
-
 Indian Premier League is an annual cricket league which is played under the T20 format. It was started in the year 2008 and has quickly gained popularity among cricket playing nations and has probably become one of the biggest sporting event in the Indian sports calendar.
 
 The tournament is played between various teams based out of different cities in India. IPL is currently in its 14th season where the tournament has been played with 8 teams from 2008 - 2010 and 2014-2021. It was played with 10 teams in 2011 and 9 teams in 2012 and 2013. From 2022, it has been expanded again to 10 teams.
 
 The tournament followed a double round-robin format (except for the year 2011) where each team plays the other team twice (once at each team's 'home' ground). From the year 2022, the teams are divided into two groups and every team plays 14 games. At the conclusion of the league stage, the top four teams qualify for the playoffs. For the first 3 years (2008-2010), the traditional semifinals and final approach was considered. From 2011, a playoff structure was introduced to award the top two teams with an additional chance to reach the finals. This ensured the competition stays relevant till the last game of the league stage as teams vie for a top 2 position. The figure below explains the playoff structure.
 
+{{< figure src="/ipl/playoff_structure.png" caption="Playoff structure in IPL" numbered="true" >}}
 
 The top two teams of the league stage have two chances to reach the final. The thought behind this playoff structure was that the top two teams should not be out of the tournament due to one bad day in the semi-finals.
 
@@ -81,15 +80,23 @@ $$(p_{1}, p_{2}, p_{3}) \sim Dirichlet(\alpha_{1}, \alpha_{2}, \alpha_{3}) $$
 {{< /math >}}
 
 
-We run this model on 11 years of the data available and we get the credible interval for the posterior probabilities of finishing at each of the position
+We run this model on 11 years of the data available (2011 - 2021) and we get the credible interval for the posterior probabilities of finishing at each of the position
 
-The horizontal line indicates the plausible values for the probability and black point indicates the estimated value of the probability from the available data and model used.
+{{< figure src="/ipl/pos1.png" caption="Probabilities for team finishing first during the league stage" numbered="true" >}}
+
+The horizontal line indicates the plausible values for the probability of team finishing in a particular position and black point indicates the estimated value of the probability from the available data and model used.
 
 We can see the probability of being runner up is higher than the probability of finishing as winner or 3rd place which seem to have almost the same probability. This means the team finishing at the top of the table at the end of the league will more often go on to lose in the playoffs (finish as runner up or $3^{rd}$ place) at the end of the tournament. 
 
-So probably the best team in the league does not win the tournament.! 
-
 Isn't it surprising? It surely is. Let us look at some of the reasons this might be the case. More often than not, the team which finishes at the top of the table during the league stage accumulates most of the points during the early stages and tends to lose steam towards the business end of the tournament. It might be a case of peaking too early. There might be some other psychological impact that might be worthwhile to study.
+
+So probably the best team in the league (team finishing first during league stage) does not win the tournament.! 
+
+Let us perform the same analysis for the team which finishes at second position in the league stage. We will use the same model used for the team finishing first at the league stage. Using data from 11 years, we get the following plot
+
+{{< figure src="/ipl/pos2.png" caption="Probabilities for team finishing second during the league stage" numbered="true" >}}
+
+We can see the probability of being winner is higher than the probability of finishing as runner's up or 3rd place. This means the team finishing second in the league stage will more often go on to win the tournament.
 
 With this being said, the team which finishes the league stage at second position has the highest probability of winning the tournament. 
 
